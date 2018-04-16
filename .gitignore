@@ -5,3 +5,6 @@ external_modules/*
 __pycache__
 !botX_modules/__init__.py
 tmp/*
+tests/botXsrc/*
+tests/botX_modules/*
+tests/external_modules/*
