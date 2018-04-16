@@ -79,7 +79,7 @@ jobs:
             source /opt/ros/kinetic/setup.bash
             cp -r botXsrc tests
             cp -r botX_modules tests
-            pytest cov=botXsrc
+            pytest cov=tests/botXsrc
 
       - run:
           name: send coverage report
