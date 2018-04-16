@@ -1,1 +1,5 @@
 psutil
+numpy
+pytest
+pytest-cov
+codecov
