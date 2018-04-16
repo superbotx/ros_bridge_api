@@ -57,6 +57,7 @@ jobs:
       - run:
           name: install botx module
           command: |
+            cd ~/
             git clone https://github.com/superbotx/botX
             cd botX
             python3 setup.py build
