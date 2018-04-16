@@ -39,7 +39,7 @@ jobs:
       - run:
           name: install python dependencies
           command: |
-            pip install -r requirements.txt
+            pip3 install -r requirements.txt
             python3 -m venv --system-site-packages venv
 
       - save_cache:
@@ -56,13 +56,13 @@ jobs:
       - run:
           name: check native pip packages
           command: |
-            pip list
+            pip3 list
 
       - run:
           name: check venv pip packages
           command: |
             . venv/bin/activate
-            pip list
+            pip3 list
 
       - run:
           name: test botx installation
