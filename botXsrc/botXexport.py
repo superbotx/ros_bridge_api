@@ -31,4 +31,12 @@ documentation generation.
 
 Modify the following variable to your needs
 """
-botXexport = {}
+
+from .bridge_component import BridgeComponent
+
+botXexport = {
+    'ros_bridge_component': {
+        'module': BridgeComponent,
+        'type': 'component'
+    }
+}

@@ -1,7 +1,12 @@
 {
-    "botX_modules": {},
     "name": "ros_bridge_api",
+    "external_modules": {
+        "ros_bridge": {
+            "name": "ros_bridge",
+            "url": "https://github.com/superbotx/ros_bridge.git"
+        }
+    },
+    "botX_modules": {},
     "source_scripts": [],
-    "version": "0.0.1",
-    "external_modules": {}
+    "version": "0.0.1"
 }
